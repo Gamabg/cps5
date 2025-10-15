@@ -28,7 +28,7 @@ export default function CadastroPage() {
     <div style={{
       maxWidth: 400,
       margin: "2rem auto",
-      background: "#fff",
+      background: "#000",
       borderRadius: 16,
       boxShadow: "0 4px 24px rgba(0,0,0,0.08)",
       padding: "2rem",
@@ -72,7 +72,7 @@ export default function CadastroPage() {
             cursor: "pointer"
           }}
         >
-          Cadastrar
+          Cadastrar-se
         </button>
       </form>
       {msg && <div style={{ marginTop: "1rem", color: "#6366f1" }}>{msg}</div>}

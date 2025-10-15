@@ -62,7 +62,7 @@ export default function PokemonDetails() {
           style={{
             marginTop: "1rem",
             background: "#6366f1",
-            color: "#fff",
+            color: "#fff  ",
             border: "none",
             borderRadius: "0.75rem",
             padding: "0.5rem 1.5rem",
@@ -89,7 +89,7 @@ export default function PokemonDetails() {
         >
           {pokemon.name}
         </h1>
-        <div style={{ marginBottom: "1.5rem" }}>
+        <div style={{ marginBottom: "1.5rem", color: "#374151"}}>
           <strong>Tipos:</strong>{" "}
           {pokemon.types.map((t) => (
             <span
@@ -110,7 +110,7 @@ export default function PokemonDetails() {
           ))}
         </div>
         <div>
-          <strong>Status:</strong>
+          <strong style={{color:"#374151"}}>Status:</strong>
           <ul style={{ listStyle: "none", padding: 0, marginTop: "0.5rem" }}>
             {pokemon.stats.map((stat) => (
               <li
