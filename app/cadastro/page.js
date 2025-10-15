@@ -20,7 +20,7 @@ export default function CadastroPage() {
     }
     setMsg("Cadastro realizado com sucesso!");
     setTimeout(() => {
-      router.push(`/details/${form.nome}`);
+      router.push(`/`);
     }, 1500);
   };
 
